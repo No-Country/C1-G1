@@ -1,1 +1,51 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.css" />
+  </head>
+  <body class="container">
+    <!--Inicia Formulario-->
+    <form>
+      <h2>Registrate y accede facilmente a un puesto de trabajo.</h2>
+      <div class="form-group">
+        <label for="InputNombre">Nombre:</label>
+        <input type="text" class="form-control" id="InputNombre" required />
+      </div>
+      <div class="form-group">
+        <label for="InputLegajo">Legajo:</label>
+        <input type="text" class="form-control" id="InputLegajo" required />
+      </div>
+      <div class="form-group">
+        <label for="InputEmail1">Email:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="InputEmail1"
+          aria-describedby="emailHelp"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="InputPassword1">Contraseña:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="InputPassword1"
+          required
+        />
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="Check1" required />
+        <label class="form-check-label" for="Check1"
+          >Acepto compartir mis datos con MyDesk</label
+        >
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <!--Termina Formulario-->
+  </body>
+</html>
