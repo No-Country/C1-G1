@@ -1,8 +1,57 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* colores de texto */
+.c1{   
+  color: #2f6690ff !important;
 }
-
-a {
-  color: #00B7FF;
+.c2{
+   color:#3a7ca5ff !important; 
+}
+.c3{
+  color:#d9dcd6ff !important;
+}
+.c4{    
+  color:#16425bff !important; 
+}
+.c5{
+  color:#81c3d7 !important;
+}
+/* colores de fondo */
+.bg1{
+  /* navbar */
+  background-color: #2f6690ff !important;
+}
+.bg2{
+  /* elemento seleccionado del navbar */
+  background-color:#3a7ca5ff !important; 
+}
+.bg3{
+  /*color de fondo*/
+  background-color:#d9dcd6ff !important;
+}
+.bg4{    
+  /* footer */
+  background-color:#16425bff !important; 
+}
+.bg5{
+  
+  background-color:#1d1d1d !important;
+}
+.collapse{
+ 
+  z-index: 1;
+}
+.dropdown-menu{
+  border-style: none !important;
+}
+.dropdown-item{
+  background-color: #3a7ca5ff;
+}
+.dropdown-item:hover{
+  background-color: #2f6690ff !important;
+  
+}
+.container{
+  margin-top: 60px;
+}
+.nav-link{
+  font-weight: bold;
 }
